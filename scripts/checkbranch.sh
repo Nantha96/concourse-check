@@ -7,4 +7,4 @@ else
     echo "The branch is Develop :----> Hence No Problem"
 fi
 git rev-parse HEAD
-git diff 36803b3 f1cd426
+git diff 36803b3 f1cd426 > filediff.txt
