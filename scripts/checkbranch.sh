@@ -8,3 +8,4 @@ else
 fi
 git rev-parse HEAD
 git diff 36803b3 f1cd426 > filediff.txt
+cat filediff.txt
