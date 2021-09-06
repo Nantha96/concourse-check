@@ -6,6 +6,6 @@ if [ $? -eq  1 ]; then
 else
     echo "The branch is Develop :----> Hence No Problem"
 fi
-git rev-parse HEAD
+git rev-parse HEAD > ./commit-id/file
 git diff 36803b3 f1cd426 > filediff.txt
 cat filediff.txt
